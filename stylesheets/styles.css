@@ -1,0 +1,160 @@
+html {
+    background-color: #1F2937;
+
+}
+* {
+    box-sizing: border-box;
+    overflow: auto;
+}
+.main {
+    align-content: center;
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top:0;
+    margin-bottom: 0;
+    width: 80%; /* or any specific width */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.top-banner {
+    display: flex;
+    justify-content: space-around;
+}
+
+#header {
+    margin: 0;
+    color: #F9FAF8;
+}
+.hero-links {
+    margin: 0;
+    color: #E5E7EB;
+}
+
+.bottom-banner {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hero-main-box {
+    padding-top: 75px;
+    padding-bottom: 75px;
+    display: flex;
+    text-align: left;
+    width: 50%;
+    max-width: 50%;
+    justify-content: space-around;
+}
+
+.hero-main-txt-box {
+    
+    width: 250px;
+}
+
+.hero-main-txt {
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-main-secondary-txt {
+    font-size: 12px;
+    font-family: Roboto;
+    color: #E5E7EB;
+    margin: 0;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex: 1;
+    width: 50%;
+    max-width: 50%;
+    object-fit: cover;
+}
+
+.car-img {
+    width: 250px;
+}
+
+.main-body {
+    padding: 0;
+    margin-bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+}
+.body-top {
+    height: 300px;
+    width: 100%;
+}
+
+#body-txt {
+    font-size: 22px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+}
+
+.body-list-img {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+.img {
+    border-radius: 10px;
+    border: solid 2px #3882F6;
+    width: 120px;
+    height: 120px;
+    
+}
+
+.sub-txt {
+    font-size: 12px;
+    width: 120px;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-align: center;
+}
+
+.quote-body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top:0;
+    margin-bottom: 0;
+    background-color: #E5E7EB;
+    width: 100%;
+    height: 300px;
+}
+
+.quote-wrap-txt {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#quote-txt {
+    font-style: italic;
+    width: 300px;
+    margin-top: 100px;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 24px;
+    color: #1F2937;
+
+}
+
+#quote-name {
+    font-weight: 900;
+    margin: 0;
+    margin-left: 150px;
+}
