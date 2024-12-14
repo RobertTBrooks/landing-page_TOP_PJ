@@ -6,6 +6,9 @@ html {
 * {
     box-sizing: border-box;
     overflow: auto;
+    font-family: Roboto;
+
+/*top of hero section */
 }
 .main {
     align-content: center;
@@ -22,22 +25,25 @@ html {
 
 .top-banner {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #header {
+    text-align: left;
     margin: 0;
     color: #F9FAF8;
 }
 .hero-links {
     margin: 0;
     color: #E5E7EB;
+    font-size: 10px;
 }
 
 .bottom-banner {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
+
 }
 
 .hero-main-box {
@@ -47,7 +53,17 @@ html {
     text-align: left;
     width: 50%;
     max-width: 50%;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+#signup-button-top {
+    font-size: 12px;
+    color: #E5E7EB;
+    border: solid #3882F6 1px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px 15px;
+
 }
 
 .hero-main-txt-box {
@@ -57,7 +73,6 @@ html {
 
 .hero-main-txt {
     font-size: 24px;
-    font-family: Roboto;
     font-weight: 900;
     color: #F9FAF8;
     margin: 0;
@@ -65,23 +80,22 @@ html {
 
 .hero-main-secondary-txt {
     font-size: 12px;
-    font-family: Roboto;
     color: #E5E7EB;
     margin: 0;
 }
 
 .hero-img {
     display: flex;
-    justify-content: center;
-    align-content: center;
+    justify-content: flex-end;
     flex: 1;
-    width: 50%;
-    max-width: 50%;
     object-fit: cover;
 }
 
+/*bottom of hero section */
+
 .car-img {
     width: 250px;
+    height: auto;
 }
 
 .main-body {
@@ -159,3 +173,64 @@ html {
     margin: 0;
     margin-left: 150px;
 }
+
+/* end of quote section*/
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    padding: 60px 0px;
+}
+
+#bottom-banner {
+    display: flex;
+    align-content: space-between;
+    gap: 85px;
+    border-radius: 10px;
+    background-color: #3882F6;
+    padding: 10px 100px;
+    width: auto;
+    
+}
+
+#bottom-signup-button {
+    align-content: center;
+    
+}
+
+#signup-button-bottom {
+    font-size: 12px;
+    color: #E5E7EB;
+    border: solid #E5E7EB 1px;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px 15px;
+ }
+
+#bottom-banner-txt {
+    margin: 15px 20px;
+
+ }
+
+#h5-bottom-txt {
+    margin: 0;
+    color: #E5E7EB;
+}
+#p-bottom-txt {
+    color: #E5E7EB;
+    margin: 0;
+    font-size: 11px;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+#footer-trademark-txt {
+    color: #E5E7EB;
+    font-size: 12px;
+}
+
+/*end of footer and bottom banner section*/
